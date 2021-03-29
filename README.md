@@ -1,16 +1,17 @@
-# testesenior
-
-1. Técnologias e estrutura básica
+1.Técnologias e estrutura básica
 Trata-se de um projeto Spring Boot com Maven.
 Para executar o mesmo é necessário seguir os passos abaixo.
+```
 -Baixar o repositório.
 -Abrir o arquivo data.sql no raiz do repositório e executar os comandos em um banco Postgres na porta 5433.
 -Abrir o repositório com a IDE desejada (recomendo o NetBeans).
 -Clicar com o botão direito do mouse e selecionar a opção "Construir com dependências".
 -Executar o projeto, é necessário possuir um servidor configurado no NetBeans.
-
+```
 
 2.Métodos HTTP da API
+
+```
 GET /pedidos
   params
     q: Keyword (opcional)
@@ -132,3 +133,4 @@ DELETE /pedidosProdutosServicos/:id
 RETURN Exlui o Produto/serviço com o id passado no parâmetro.
 Exemplo:
 URL:http://localhost:8080/pedidosProdutosServicos/0bc7f0e5-5066-45c1-b6ff-2bea1f21bfec
+```
