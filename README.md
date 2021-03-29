@@ -1,7 +1,10 @@
+#testesenior
+
 1.Técnologias e estrutura básica
+
+```
 Trata-se de um projeto Spring Boot com Maven.
 Para executar o mesmo é necessário seguir os passos abaixo.
-```
 -Baixar o repositório.
 -Abrir o arquivo data.sql no raiz do repositório e executar os comandos em um banco Postgres na porta 5433.
 -Abrir o repositório com a IDE desejada (recomendo o NetBeans).
